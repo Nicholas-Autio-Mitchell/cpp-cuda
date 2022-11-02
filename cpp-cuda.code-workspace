@@ -1,0 +1,105 @@
+{
+    "folders": [
+        {
+            "path": ".",
+        }
+    ],
+    "settings": {
+        "terminal.integrated.env.osx": {
+            "PYTHONPATH": "${workspaceFolder}",
+        },
+        "terminal.integrated.env.linux": {
+            "PYTHONPATH": "${workspaceFolder}",
+        },
+        "terminal.integrated.env.windows": {
+            "PYTHONPATH": "${workspaceFolder}",
+        },
+        "jupyter.notebookFileRoot": "${workspaceFolder}",
+        "cSpell.words": [
+            "algo",
+            "Algo",
+            "atexit",
+            "dtype",
+            "forza",
+            "kitti",
+            "mypy",
+            "pylint",
+            "pyplot",
+            "pytest",
+            "PYTHONPATH"
+        ],
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "files.associations": {
+            "*.cu": "cpp",
+            "*.cuh": "cpp",
+        },
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
+        "files.insertFinalNewline": true,
+        "files.exclude": {
+            ".mypy_cache": true,
+            ".vscode": false,
+            "**/__pycache__": true,
+            "*~": true
+        },
+        "python.analysis.extraPaths": [
+            "${workspaceFolder}*",
+        ],
+        "python.formatting.provider": "yapf",
+        "python.linting.enabled": true,
+        "python.linting.lintOnSave": true,
+        "python.linting.mypyEnabled": true,
+        "python.linting.pydocstyleEnabled": true,
+        "python.linting.pycodestyleEnabled": true,
+        "python.linting.pycodestyleArgs": [
+            "--rcfile=setup.cfg",
+        ],
+        "python.testing.unittestEnabled": false,
+        "python.testing.pytestEnabled": true,
+        "python.terminal.activateEnvironment": false,
+        "[python]": {
+            "editor.tabSize": 4,
+            "editor.codeActionsOnSave": {
+                "source.organizeImports": true,
+            }
+        },
+        "search.exclude": {
+            "**/.git/**": true,
+            ".docker-sync": true,
+            ".mypy_cache": true,
+            ".pytest_cache": true,
+            ".vscode": false,
+        },
+        "search.followSymlinks": false,
+        "files.watcherExclude": {
+            "**/.git/**": true,
+            "**/.*_cache/**": true,
+            "**/.mypy_cache/**": true,
+            "**/.pytest_cache/**": true,
+        },
+        "terminal.integrated.localEchoLatencyThreshold": -1,
+        "editor.rulers": [
+            120
+        ],
+        "editor.minimap.showSlider": "always",
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 500,
+        "python.testing.autoTestDiscoverOnSaveEnabled": true,
+        "python.linting.pylintPath": "",
+        "errorLens.excludePatterns": [
+            "third_party/**/*"
+        ],
+        "editor.formatOnSave": true,
+        "jupyter.generateSVGPlots": true,
+    },
+    "extensions": {
+        "recommendations": [
+            "asciidoctor.asciidoctor-vscode",
+            "eamodio.gitlens",
+            "ms-vscode-remote.vscode-remote-extensionpack",
+            "ms-python.vscode-pylance",
+            "streetsidesoftware.code-spell-checker",
+        ],
+    },
+}
